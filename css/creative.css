@@ -244,14 +244,13 @@ background: white;
     margin-bottom: -20px;
 }
 .form-button{
-  font-family: futura;
     border-style: none;
     height: 40px;
     width: 40px;
     margin-left: -5px;
     background-image:url(../img/button.png);
+    background-color: transparent;
     background-size: 100% 100%;
-    color: black;
 }
 .last{
     border-style: solid;
@@ -269,6 +268,7 @@ background: white;
     background-color: white;
     background-size: 100% 100%;
     color: black;
+    font-size: 14px;
 }
 #work-normal{
     background-color: #999999;
