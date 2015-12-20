@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="stepcarousel.js">
+
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* Please keep this notice intact
+***********************************************/
+
+</script>
+
+
+<script type="text/javascript">
+
+stepcarousel.setup({
+	galleryid: 'mygallery', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	autostep: {enable:false, moveby:1, pause:3000},
+	panelbehavior: {speed:500, wraparound:true, wrapbehavior:'slide', persist:true},
+	defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/works/Left.png', -5, 80], rightnav: ['img/works/Right.png', -20, 80]},
+	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+	contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+})
+
+</script>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Cahoot</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+        <!-- Custom Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+        <!-- Plugin CSS -->
+        <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top">
+        <div class="mynav">
+            <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--                <div id="socialcontainer">
+
+                                <a class="w-inline-block social-button" href="https://twitter.com/thecahoot" target="_blank">
+                                    <img src="img/icon/Twitter.png" width="15" alt="5339413e23c3307b270003d2_twitter.png">
+                                </a>
+                                  <a class="w-inline-block social-button" href="https://www.facebook.com/thecahoot" target="_blank">
+                                  <img src="img/icon/facebook.png" height="13" alt="5339413e23c3307b270003d2_twitter.png">
+                                </a>
+
+                                            </div>-->
+
+                        <a class="navbar-brand page-scroll">
+                            <div id="logocontainer">
+                                <img class="top-logo" src="img/icon/Logo.png" width="100" alt="533940d9611d657c27000412_logo.png">
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="socialcontainer">
+                                <a class="w-inline-block social-button" href="https://twitter.com/thecahoot" target="_blank">
+                                    <img src="img/icon/Twitter.png" width="15" alt="5339413e23c3307b270003d2_twitter.png">
+                                </a>
+                            </li>
+                            <li class="socialcontainer">
+                                <a class="w-inline-block social-button" href="https://www.facebook.com/thecahoot" target="_blank">
+                                    <img src="img/icon/facebook.png" height="15" alt="5339413e23c3307b270003d2_twitter.png">
+                                </a>
+                            </li>
+                            <li  class="navcolor">
+                                <a class="page-scroll navcolor" href="#services">About Us</a>
+                            </li>
+                            <li  class="navcolor">
+                                <a class="page-scroll navcolor" href="#services">Blog</a>
+                            </li>
+<li  class="navcolor">
+                                <a class="page-scroll navcolor" href="#services">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+
+        <header>
+            <div class="header-content">
+                     <div class="header-content-inner toppart">
+                         <div class="title-content">
+
+                    <h2 class="header1 section-heading-white" >Your closest thing to a personal shopper</h2>
+                    <div class="header-description">
+                    <p><font color="white">Find and buy anything you want from anywhere in the world.<br/><br/>Cheaper.</font></p>
+
+                            </div>
+                    </div>
+                         <br><br>
+                    <div class="submitform">
+
+                        <div class="emailbox">
+                            <p id="ahead">Get ahead of others</p>
+                            <form class="w-clearfix form" name="mc-embedded-subscribe-form" data-name="Email Form" action="//thecahoot.us9.list-manage.com/subscribe/post?u=07750ac86aefa1bead58fb46f&amp;id=81f488db27" method="post" id="mc-embedded-subscribe-form"  class="validate" target="_blank" novalidate>
+                                <div class="input-section">
+                                <input class="w-input field firstemail" type="email" value="" id="mce-EMAIL" placeholder="Enter your email address" name="EMAIL" data-name="Email" required="required"></input>
+                                <input class="w-button button form-button" type="submit"  value=" " name="" data-wait="Please wait..." id="mc-embedded-subscribe"></input>
+                                </div>
+                                <!--  <input type="text" name="search_text" id="search_text" placeholder="Search"/>
+            <input type="button" name="search_button" id="search_button">-->
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Get in Cahoot.</h2>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="closeup1">
+                            <div class="service-box">
+
+                                <h3 class="identity">If you are a traveller...</h3>
+
+                                <p class="text-muted">Earn extra cash while on a trip</p>
+                                <p class="text-muted">Fully utilise your extra luggage space</p>
+                                <br/>
+                                <button class="Cahootbtn">Post itinerary now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center handphone">
+                        <div class="service-box">
+                            <div class="imgcenter">
+                                <img src="img/handphone.png" height="250" class="imgcenter img-responsive" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="closeup2">
+                            <div class="service-box">
+
+                                <h3 class="identity">If you are a shopper...</h3>
+                                <p class="text-muted">Get anything you want from anywhere around the world</p>
+                                <p class="text-muted">Save on shipping</p>
+                                <button class="Cahootbtn">Send request now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 ">
+                        <div class="service-box1 text-center">
+
+                            <p class="text-expand1">Get notified when we find a match for you, whether you are shopping
+                                or travelling. Click on the links above to post your trips and requests, and we will
+                                sort out the rest!</p>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="work-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading-white">How Cahoot works</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                      <div id="mygallery" class="center-block stepcarousel">
+<div class="belt">
+
+<div class="panel">
+
+    <img src="img/works/mobile.png" height=50 />
+<p class="worktxt center-block worktxt-mobile">Shopping request sent via Cahoot.</p>
+</div>
+
+
+<div class="panel">
+
+<img src="img/works/arrow.png" height=50/>
+<p class="worktxt center-block worktxt-mobile">We find you a match.</p>
+
+
+</div>
+
+<div class="panel">
+<img src="img/works/shield.png" height=50/>
+<p class="worktxt center-block worktxt-mobile">Money secured with Cahoot until successful delivery.</p>
+</div>
+
+<div class="panel">
+<img src="img/works/bag.png" height=50/>
+<p class="worktxt center-block worktxt-mobile">Traveller purchases and brings the item to you.</p>
+</div>
+
+<div class="panel">
+<img src="img/works/gift.png" height=50/>
+<p class="worktxt center-block worktxt-mobile">Share the experience.</p>
+</div>
+
+</div>
+</div>
+
+
+<div  class="paginate center-block">
+   <p id="mygallery-paginate">
+<span class="paginatecircle" data-moveby="1"></span>
+</p>
+</div>
+
+
+
+
+<!--                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box">
+                            <img src="img/works/mobile.png" height="250" class="imgcenter img-responsive" alt="" />
+
+                            <p class="explain">Shopping request sent via Cahoot.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box">
+                            <img src="img/works/arrow.png" height="250" class="imgcenter img-responsive" alt="" />
+
+                            <p class="explain">We find you a match.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box">
+                            <img src="img/works/shield.png" height="250" class="imgcenter img-responsive" alt="" />
+
+                            <p class="explain">Transaction fee secured with Cahoot until successful delivery.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box">
+                            <img src="img/works/bag.png" height="230" class="imgcenter img-responsive" alt="" />
+
+                            <p class="explain">Traveller purchases and brings the item to you.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box">
+                            <img src="img/works/gift.png" height="250" class="imgcenter img-responsive" alt=""/>
+
+                            <p class="explain">Share the experience.</p>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+        <section id="work-normal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading-white">How Cahoot works</h2>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div id="wholepic">
+                    <div class="bigglobal">
+
+                        <img  src="img/works/global1.png" width="450" class="imgcenter img-responsive globalbox" alt="" />
+                    </div>
+                    <div class="moving col-lg-12 col-sm-12 col-xs-12 transationfee">
+                        <img src="img/works/shield.png" height="250" class="center-block workimg img-responsive" alt=""/>
+                        <p class="text-center worktxt">Money secured with Cahoot until successful delivery.</p>
+                    </div>
+                    <div class="moving col-lg-6 col-sm-6 col-xs-12 match">
+                        <img src="img/works/Arrow.png" height="250" class="center-block workimg img-responsive" alt=""/>
+                        <p class="text-center worktxt">We find you a match.</p>
+                    </div>
+
+                    <div class="moving col-lg-6 col-sm-6 col-xs-12 traveller">
+                        <img src="img/works/bag.png" height="250" class="center-block  workimg img-responsive" alt=""/>
+                        <p class="text-center worktxt">Traveller purchases and brings the item to you.</p>
+                    </div>
+
+
+                    <div class="moving shoppingreq col-lg-6 col-sm-6 col-xs-12">
+                        <img src="img/works/mobile.png" height="250" class="center-block workimg img-responsive" alt=""/>
+                        <p class="text-center worktxt">Shopping request sent via Cahoot.</p>
+                    </div>
+                    <div class="moving shareexp col-lg-6 col-sm-6 col-xs-12">
+                        <img src="img/works/gift.png" height="250" class="center-block workimg img-responsive" alt=""/>
+                        <p class="text-center worktxt">Share the experience.</p>
+                    </div>
+
+
+</div>
+                </div>
+            </div>
+
+        </section>
+        <section id="experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading-white experiencehead">For the ultimate Cahoot experience</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile-display">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <img src="img/works/shieldred.png" height="60">
+                            <h4 class="experiencetitle">Cahoot Guarantee</h4>
+                            <p class="experiencetext">Trust motivates us. We hold money in escrow until you get your good so
+                                you have one less thing to worry about.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <img src="img/works/glass.png" height="60">
+                            <h4 class="experiencetitle">Accessibility</h4>
+                            <p class="experiencetext">With Cahoot, you can get unique items and goods at better value
+                                from anywhere in the world.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <img src="img/works/people.png" height="60">
+                            <h4 class="experiencetitle">Community</h4>
+                            <p class="experiencetext">Find yourself immersed in a community of curated, liked-minded individuals.
+                                We believe anyone should be able to shop anywhere, so should you.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+
+                        <h2 class="section-heading contacthead">Get notified when we launch</h2>
+                        <br><br>
+                        <p class="contacttext">Join the community of like-minded and enthusiastic shopping kakis and get
+                            ahead of everyone. Drop us your email below and we will send you an exclusive invite.</p>
+                    </div>
+
+                    <div class="col-lg-12 text-center">
+                        <!--                        <i class="fa fa-envelope-o fa-3x wow bounceIn last" data-wow-delay=".1s"></i>-->
+                        <input class="w-input field last" type="email" value="" id="mce-EMAIL" placeholder="Enter your email address (example@thecahoot.com)" name="EMAIL" data-name="Email" required="required"></input>
+                                                        <input class="w-button button form-button2" type="submit"  name="subscribe" data-wait="Please wait..." id="mc-embedded-subscribe"></input>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="call-to-action">
+<!--                    <h2>Free Download at App Store!</h2>-->
+                    <p class="ending">Glad we're doing this together.</p>
+                    <img class="center-block smile" src="img/smile.png" width="100" alt=""/>
+<!--                    <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>-->
+
+
+                </div>
+            </div>
+        </aside>
+
+            <div class="container text-center footer">
+                <div class="menu">
+<!--                    <h2>Free Download at App Store!</h2>-->
+
+
+                    <a href="" class="ending tab">FAQ</a>
+                    <a href="" class="ending tab ">Term's of Service</a>
+                    <a href="" class="ending tab">Privacy</a>
+
+
+                </div>
+            </div>
+
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/wow.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/creative.js"></script>
+
+    </body>
+
+</html>
