@@ -29,6 +29,7 @@ hr {
     margin-left: 370px;
     margin-top: 30px;
     text-align: left;
+	font-size:20px;
     text-shadow: 0px 0px 15px #000000;
 
 }
@@ -111,14 +112,14 @@ section {
     cursor: pointer;
 }
 .field{
-    margin-left: 290px;
+    margin-left: 330px;
     width: 500px;
-    margin-right: 0;
+	border-style:solid;
+	border-width:2px;
     padding-left: 15px;
     font-family: futura;
     height: 40px;
     background-color: rgba(255,255,255,1);
-    border-style: none;
     color: black;
 }
 
@@ -244,13 +245,17 @@ background: white;
     margin-bottom: -20px;
 }
 .form-button{
-    border-style: none;
+
+    font-family: futura;
+    border-style: solid;
+    border-width: 2px;
+	border-color:black;
     height: 40px;
-    width: 40px;
-    margin-left: -5px;
-    background-image:url(../img/button.png);
-    background-color: transparent;
-    background-size: 100% 100%;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+
 }
 .last{
     border-style: solid;
@@ -351,12 +356,27 @@ aside {
   text-align: center;
   z-index: -1;
 }
-
+.textdisplay{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	font-family:futura;
+}
+.tos{
+	
+	text-align:center;
+	font-family:futura;
+	
+	
+}
 .nav{
     z-index: 0;
 }
 .navcolor{
     color: #cc3333;
+	font-family:futura;
+	font-size:15px;
 }
 .top-logo{
 
@@ -507,6 +527,30 @@ h1{
     padding: 8px;
     width: 220px;
 }
+.desktophide{
+	display:none;
+}
+.Cahootbtn2{
+    font-family: futura,'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cc3333;
+    background-color: white;
+    color:#cc3333;
+    padding: 5px;
+	font-size:11px;
+    width: 130px;
+	margin-right:10px;
+}
+.topbtn{
+	margin-top:10px;
+	margin-right:10px;
+}
+.Cahootbtn2:hover{
+background-color:#cc3333;
+color:white;
+}
 #work{
     background-color:#999999;
 }
@@ -539,7 +583,20 @@ margin-right: auto;
 margin-top: 30px;
 font-family: futura;
 }
+.socialmedia{
 
+display:inline-block;
+position:absolute;
+right:35px;
+margin-top:-20px;
+}
+.social-button{
+	padding-left:10px;
+}
+.footer{
+	
+	
+}
 .smile{
 
     padding-bottom: 20px;
@@ -547,16 +604,23 @@ font-family: futura;
 .menu{
     margin-top: 50px;
     margin-bottom: 50px;
+	display:inline-block;
 
 }
 .tab{
-      color: black;
+      color: #cc3333;
 }
 .ending{
 
     display: inline;
-    padding-left: 50px;
-    padding-right:50px;
+    padding-left: 10px;
+    padding-right:10px;
+        padding-top: 20px;
+    font-family: futura;
+    font-size: 12px;
+}
+.endingtxt{
+
         padding-top: 20px;
     font-family: futura;
     font-size: 20px;
@@ -823,6 +887,10 @@ line-height: 30px;
 }
 
 @media(max-width:469px){
+	.desktophide{
+		display:block;
+	}
+	
         .tab{
         font-size: 11px;
     }
