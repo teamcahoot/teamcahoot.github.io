@@ -348,13 +348,13 @@ aside {
    color:    #333333;
 }
 #logocontainer{
-
+	z-index:1;
   position: fixed;
   top: 5px;
-  left: 0;
-  width: 100%;
+  left: 45%;
+  
   text-align: center;
-  z-index: -1;
+
 }
 .textdisplay{
 	width:80%;
@@ -402,6 +402,7 @@ navbar{
 }
 .mynav{
     background-color: white;
+	z-index:2;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -544,6 +545,7 @@ h1{
 	margin-right:10px;
 }
 .topbtn{
+	z-index:2;
 	margin-top:10px;
 	margin-right:10px;
 }
