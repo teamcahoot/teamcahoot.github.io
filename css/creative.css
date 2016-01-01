@@ -1372,6 +1372,7 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+	
 }
 .changesize{
     font-size: 10px;
