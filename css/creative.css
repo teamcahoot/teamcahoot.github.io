@@ -243,7 +243,7 @@ background: white;
 }
 .contactform{
 
-	margin-bottom:50px;
+
 	
 }
 textarea { 
@@ -265,7 +265,24 @@ textarea {
 	
 }
 
+.nonedisplay{
 
+}
+/* Fix for Bootstrap 3 with Angular UI Bootstrap */
+
+.modal { 
+	display: block;
+}
+
+/* Custom dialog/modal headers */
+
+.dialog-header-notify { background-color: white; }
+
+
+
+/* Ease Display */
+
+.pad { padding: 25px; }
 .contactdetail{
 		font-family:Helvetica;
 }
