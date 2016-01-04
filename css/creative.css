@@ -250,8 +250,8 @@ textarea {
    resize:vertical;/*will prevent resizing horizontally*/ 
 }
 .contacttitle{
-	font-family:futura;
-	font-size:25px;
+	font-family:Helvetica;
+	font-size:20px;
 }
 .sendbtn{
 	width:100px;
@@ -267,7 +267,7 @@ textarea {
 
 
 .contactdetail{
-	font-family:futura;
+		font-family:Helvetica;
 }
 .match{
 }
@@ -472,11 +472,17 @@ navbar{
 }
 .contacttop{
 	  font-size: 14px;
-    letter-spacing: 1px;
+
     line-height: 30px;
-    font-family: futura;
-	width:80%;
+	font-family:Helvetica;
 	text-align:center;
+	width:80%;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+#contactbig{
+	font-size:25px;
+
 }
 .contacttext{
     font-size: 14px;
