@@ -241,6 +241,34 @@ background: white;
     height: 45px;
 
 }
+.contactform{
+
+	margin-bottom:50px;
+	
+}
+textarea { 
+   resize:vertical;/*will prevent resizing horizontally*/ 
+}
+.contacttitle{
+	font-family:futura;
+	font-size:25px;
+}
+.sendbtn{
+	width:100px;
+}
+.control-label{
+	font-family:futura;
+}
+.contactinfo{
+	background-color:rgba(128,128,128,0.1);
+	margin-left:25px;
+	
+}
+
+
+.contactdetail{
+	font-family:futura;
+}
 .match{
 }
 .transationfee{
@@ -334,17 +362,21 @@ aside {
     display: inline-block;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+font-family:futura;
     color:    #333333;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+font-family:futura;
    color:    #333333;
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
+font-family:futura;
    color:    #333333;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
+font-family:futura;
    color:    #333333;
 }
 #logocontainer{
@@ -437,6 +469,14 @@ navbar{
     font-size: 13px;
     font-weight: 700;
     color: #cc3333;
+}
+.contacttop{
+	  font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: futura;
+	width:80%;
+	text-align:center;
 }
 .contacttext{
     font-size: 14px;
