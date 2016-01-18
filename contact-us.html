@@ -28,30 +28,30 @@ stepcarousel.setup({
 angular.module('modalTest',['ui.bootstrap','dialogs'])
 .controller('dialogServiceTest',function($scope,$rootScope,$timeout,$dialogs){
 
-  
+
   $scope.launch = function(which){
     var dlg = null;
     switch(which){
-       
-        
+
+
       // Notify Dialog
       case 'notify':
         dlg = $dialogs.notify('Something Happened!','Something happened that I need to tell you.');
         break;
-        
+
       // Confirm Dialog
 
-       
+
       // Create Your Own Dialog
 
     }; // end switch
   }; // end launch
-  
+
   // for faking the progress bar in the wait dialog
 
-  
 
-  
+
+
 }) // end dialogsServiceTest
 
 // end run / module
@@ -141,12 +141,12 @@ angular.module('modalTest',['ui.bootstrap','dialogs'])
 						</div>
 							<div class="desktophide">
 
-							 <li class="socialcontainer">      
+							 <li class="socialcontainer">
                                 <a class="w-inline-block social-button" href="https://twitter.com/thecahoot" target="_blank">
                                     <img src="img/icon/Twitter.png" width="15" alt="5339413e23c3307b270003d2_twitter.png">
                                 </a>
                             </li>
-                            <li class="socialcontainer"> 
+                            <li class="socialcontainer">
                                 <a class="w-inline-block social-button" href="https://www.facebook.com/thecahoot" target="_blank">
                                     <img src="img/icon/facebook.png" height="15" alt="5339413e23c3307b270003d2_twitter.png">
                                 </a>
@@ -156,7 +156,7 @@ angular.module('modalTest',['ui.bootstrap','dialogs'])
                                 <a class="page-scroll navcolor" href="about-us.html">About Us</a>
                             </li>
                             <li  class="navcolor">
-                                <a class="page-scroll navcolor" href="#services">Blog</a>
+                                <a class="page-scroll navcolor" href="http://blog.thecahoot.com">Blog</a>
                             </li>
 							<li  class="navcolor">
                                 <a class="page-scroll navcolor" href="contact-us.html">Contact Us</a>
@@ -172,17 +172,17 @@ angular.module('modalTest',['ui.bootstrap','dialogs'])
 <br/><br/><br/><br/>
 <h1 class="tos center">Contact Us</h1>
 <br/><br/>
-<p class="contacttop"><span id="contactbig"><b>Got a question? We’d love to hear from you!</b></span> 
+<p class="contacttop"><span id="contactbig"><b>Got a question? We’d love to hear from you!</b></span>
 <br/><br/>
 If you’re wondering about our business or facing some issues with our application, shoot us an email at <a href="mailto:happiness@thecahoot.com">happiness@thecahoot.com</a> or<br/> check out the FAQs section - answers might be there already!</p>
- 
+
 <div class="container">
        <form id="input-form" class="form-horizontal contactform col-lg-8 col-md-8" role="form" method="post" action="" target="no-target">
     <div class="form-group">
         <label for="name" class="col-sm-2 control-label">Name</label>
         <div class="col-sm-10">
 		    <input type="text" value="" name="q1" id="input-q1" class="form-control"  placeholder="First & Last Name" value="">
-            
+
         </div>
     </div>
     <div class="form-group">
@@ -252,7 +252,7 @@ If you’re wondering about our business or facing some issues with our applicat
 angular.module('modalTest',['ui.bootstrap','dialogs'])
 .controller('dialogServiceTest',function($scope,$rootScope,$timeout,$dialogs){
 
-  
+
   $scope.launch = function(which){
     var dlg = null;
 	    var inputq1 = encodeURIComponent($('#input-q1').val());
@@ -280,12 +280,12 @@ angular.module('modalTest',['ui.bootstrap','dialogs'])
 	};
 
   }; // end launch
-  
+
   // for faking the progress bar in the wait dialog
 
-  
 
-  
+
+
 }) // end dialogsServiceTest
 
 // end run / module
