@@ -419,6 +419,8 @@ font-family:futura;
 
 
 }
+
+
 .nav{
     z-index: 0;
 }
@@ -1092,6 +1094,34 @@ line-height: 30px;
 }
 
 @media(max-width:469px){
+	    .header-description{
+
+        margin-top:30px;
+    }
+	#logocontainer{
+		left:30%;
+	}
+	#appstore{
+		
+	height:30px;	
+	}
+	#googleplay{
+	height:30px;	
+	}
+	#firsttext{
+
+	font-family:futura;
+	font-size:16px;
+}
+#secondtext{
+
+	font-family:futura;
+	font-size:16px;
+	margin-top:10px;
+}
+	.title-content{
+		margin-left:0px;
+	}
 	.desktophide{
 		display:block;
 	}
@@ -1117,31 +1147,28 @@ line-height: 30px;
     font-weight: 300;
     line-height: 110%;
     margin-bottom: -15px;
+	width:100%;
 
 
 }
 
-    .title-content{
-        margin-top: -50px;
-        margin-bottom: 0px;
-        margin-left: 120px;
-    }
 
     .emailbox{
         margin-left: 140px;
     }
    .field{
-
-       margin-left: -120px;
-    width: 230px;
-    height: 20px;
+	font-size:11px;
+	margin-left:-120px;
+    width: 200px;
+    height: 30px;
 
 }
 .form-button{
-
-    height: 20px;
-    width: 20px;
-    margin-left: -5px;
+	font-size:11px;
+    height: 30px;
+    width: 50px;
+	margin:0;
+	
 }
     .submitform{
         margin-bottom: -70px;
@@ -1210,28 +1237,11 @@ line-height: 30px;
 
 }
 
-    .title-content{
-        margin-top: -50px;
-        margin-bottom: 0px;
-        margin-left: 90px;
-    }
+
 
     .emailbox{
         margin-left: 110px;
   }
-   .field{
-
-       margin-left: -120px;
-    width: 230px;
-    height: 20px;
-
-}
-.form-button{
-
-    height: 20px;
-    width: 20px;
-    margin-left: -5px;
-}
 
 
 }
