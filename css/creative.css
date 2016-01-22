@@ -1094,6 +1094,16 @@ line-height: 30px;
 }
 
 @media(max-width:469px){
+	.socialmedia{
+		left:0;
+		right:0;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	.mobile-hide{
+		display:none;
+	}
 	    .header-description{
 
         margin-top:30px;
@@ -1156,6 +1166,9 @@ line-height: 30px;
     .emailbox{
         margin-left: 140px;
     }
+	.form-button2{
+		font-size:11px;
+	}
    .field{
 	font-size:11px;
 	margin-left:-120px;
